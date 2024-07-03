@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/components/header.css" />
     <link rel="stylesheet" href="styles/utilis.css" />
     <title>Designer | Homepage</title>
   </head>
@@ -17,7 +18,7 @@
     <!-- header section -->
     <header class="header">
       <!-- desktop header -->
-      <div class="">
+      <div class="header__desktop container">
         <!-- Desktop Logo -->
         <div class="header__logo-container">
           <a class="header__logo-link" href="#index.html">
@@ -34,7 +35,12 @@
         <nav class="header__navbar">
           <ul class="header__menu">
             <li class="header__menu-item">
-              <a class="header__menu-link" href="index.html">Homepage</a>
+              <a
+                class="header__menu-link header__menu-link-active"
+                href="index.html"
+              >
+                Homepage
+              </a>
             </li>
 
             <li class="header__menu-item">
@@ -52,13 +58,13 @@
                 Trending
               </a>
             </li>
-          </ul>
 
-          <li class="header__menu-item">
-            <a class="header__menu-link" href="pages/contact.html">
-              Contact Us
-            </a>
-          </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="pages/contact.html">
+                Contact Us
+              </a>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
