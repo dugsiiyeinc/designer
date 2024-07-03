@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/components/header.css" />
     <link rel="stylesheet" href="styles/components/mobile-nav.css" />
     <link rel="stylesheet" href="styles/components/main-page.css" />
+    <link rel="stylesheet" href="styles/components/search-form.css" />
     <link rel="stylesheet" href="styles/utilis.css" />
     <title>Designer | Homepage</title>
     <script
@@ -141,6 +142,67 @@
           <!-- this button is using a utility class -->
           <button class="btn">Discover More</button>
         </div>
+      </section>
+
+      <!-- search form section -->
+      <section class="search-form container">
+        <form class="form">
+          <fieldset class="form__fieldset">
+            <label for="seacrhTitle" class="form__label">
+              Search Work by Title
+            </label>
+            <input
+              type="text"
+              name="searchTitle"
+              class="form__text"
+              placeholder="Type any work title..."
+              required
+            />
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <label for="chooseCategory" class="form__label">
+              Choose Category
+            </label>
+            <select name="Category" class="form__select" id="chooseCategory">
+              <option selected>Choose Category</option>
+              <option type="checkbox" name="option1" value="Interior Design">
+                Interior Design
+              </option>
+              <option value="Exterior Design">Exterior Design</option>
+              <option value="New Ideas">New Ideas</option>
+              <option value="Trendy Design">Trendy Design</option>
+            </select>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <label for="chooseprice" class="form__label">
+              Choose Category
+            </label>
+            <select name="price" class="form__select" id="chooseprice">
+              <option selected>choose price</option>
+              <option value="$100 - $250"">$100 - $250</option>
+              <option value="$250 - $500">$250 - $500</option>
+              <option value="$500 - $1000">$500 - $1000</option>
+              <option value="$1000+">$1000+</option>
+            </select>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <label for="chooseplan" class="form__label"> Pick a plan </label>
+            <select name="plan" class="form__select" id="chooseplan">
+              <option selected>choose plan</option>
+              <option value="Standard">Standard</option>
+              <option value="Proffessional">Proffessional</option>
+              <option value="Golden">Golden</option>
+              <option value="Premium">Premium</option>
+            </select>
+          </fieldset>
+
+          <fieldset class="form__fieldset form__fieldset--fullwidth">
+            <button class="search-form__btn">Search Now</button>
+          </fieldset>
+        </form>
       </section>
     </main>
   </body>
