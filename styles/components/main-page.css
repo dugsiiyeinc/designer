@@ -1,0 +1,57 @@
+.main-banner {
+  background-color: #333;
+  background-image: url(https://templatemo.com/templates/templatemo_572_designer/assets/images/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 270px 0 400px;
+}
+
+.main-banner__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.content__title {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+}
+
+.content__description {
+  text-transform: uppercase;
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin: 15px 0 25px;
+}
+
+.em {
+  font-style: normal;
+  color: #ff565b;
+}
+
+/* media queries breakpoint */
+
+/* 2xl */
+/* @media (max-width: 1400px) {} */
+
+/* xl */
+/* @media (max-width: 1280px) {} */
+
+/* lg */
+/* @media (max-width: 1024px) {} */
+
+/* md */
+/* @media (max-width: 768px) {} */
+
+/* sm */
+/* @media (max-width: 640px) {} */
+
+/* xs */
+/* @media (max-width: 475px) {} */
