@@ -27,6 +27,7 @@
   background-color: #ffffff;
   padding: 11px 25px;
   border-radius: 7px;
+  font-size: 14px;
   transition: color 0.3s, background-color 0.3s;
 }
 
