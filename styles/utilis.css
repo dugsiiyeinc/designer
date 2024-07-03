@@ -73,6 +73,6 @@
 /* xs */
 @media (max-width: 475px) {
   .container {
-    width: 100%;
+    width: 90%;
   }
 }
