@@ -22,6 +22,19 @@
   padding-inline: 0.5rem;
 }
 
+.btn {
+  color: #ff565b;
+  background-color: #ffffff;
+  padding: 11px 25px;
+  border-radius: 7px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: #ff565b;
+}
+
 /* 2xl */
 @media (max-width: 1400px) {
   .container {
