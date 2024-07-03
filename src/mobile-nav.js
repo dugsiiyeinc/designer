@@ -1,6 +1,6 @@
 const mobileNav = () => {
   const hamburger = document.querySelector(".hamburger");
-  const mobileMenu = document.querySelector(".mobile-menu");
+  const mobileMenu = document.querySelector(".mobile__menu");
   const icons = document.querySelectorAll("i");
 
   hamburger.addEventListener("click", function (event) {
