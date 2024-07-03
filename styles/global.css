@@ -46,3 +46,11 @@ ul {
 a {
   text-decoration: none;
 }
+
+option {
+  font-weight: normal;
+  display: block;
+  min-height: 1.2em;
+  padding: 0 2px 1px;
+  white-space: nowrap;
+}
