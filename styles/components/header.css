@@ -29,7 +29,7 @@
   color: #ff565b;
 }
 
-.header__menu-link-active,
+.header__menu-link--active,
 .header__menu-link:active {
   color: #ff565b;
   background-color: #ffffff;
