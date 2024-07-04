@@ -87,16 +87,25 @@
 @media (max-width: 1024px) {
   .explore-work__container {
     flex-direction: column;
+    gap: 0;
   }
 
   .explore-work__left-image,
   .explore-work__right-content {
     width: 100%;
   }
+
+  .explore-work__right-content {
+    padding-top: 32px;
+  }
 }
 
 /* md */
-/* @media (max-width: 768px) {} */
+@media (max-width: 768px) {
+  .explore-work {
+    padding-inline: 0;
+  }
+}
 
 /* sm */
 /* @media (max-width: 640px) {} */
