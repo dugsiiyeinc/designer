@@ -19,8 +19,7 @@ body {
 img,
 picture,
 video,
-canvas,
-svg {
+canvas {
   width: 100%;
   vertical-align: middle;
 }
@@ -53,4 +52,9 @@ option {
   min-height: 1.2em;
   padding: 0 2px 1px;
   white-space: nowrap;
+}
+
+svg {
+  vertical-align: middle;
+  margin-right: 8px;
 }
