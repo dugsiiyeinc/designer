@@ -37,18 +37,6 @@
   width: 100%;
 }
 
-.search-form__btn {
-  display: block;
-  font-size: 14px;
-  font-weight: 400;
-  color: #ffffff;
-  background-color: #ff565b;
-  padding: 11px 25px;
-  border-radius: 7.5px;
-  border: none;
-  width: 100%;
-}
-
 /* 2xl */
 /* @media (max-width: 1400px) {} */
 

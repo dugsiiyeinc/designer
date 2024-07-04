@@ -103,7 +103,12 @@
 /* md */
 @media (max-width: 768px) {
   .explore-work {
-    padding-inline: 0;
+    padding-inline: 12px;
+  }
+
+  .explore-work__left-image,
+  .explore-work__right-content {
+    padding: 0;
   }
 }
 
