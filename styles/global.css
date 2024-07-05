@@ -24,6 +24,10 @@ canvas {
   vertical-align: middle;
 }
 
+fieldset {
+  border: none;
+}
+
 input,
 button,
 textarea,
