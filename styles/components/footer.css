@@ -5,7 +5,7 @@
   grid-template-areas:
     "abo abo abo loc cus fol"
     "bla bla bla new new new"
-    "cop cop cop cop cop cop";
+    "cop cop cop cop cop scr";
 }
 
 .footer__about-logo__img {
@@ -63,6 +63,17 @@
 .footer__copyright {
   grid-area: cop;
   padding-top: 60px;
+}
+
+.footer__scroll-to-top {
+  grid-area: scr;
+  padding-top: 60px;
+  color: #7a7a7a;
+}
+
+.footer__scroll-to-top__link {
+  font-size: 0.9375rem;
+  color: #7a7a7a;
 }
 
 .footer__newsletter-input {
