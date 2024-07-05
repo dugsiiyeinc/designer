@@ -1,15 +1,16 @@
 .whats-trending {
   padding-inline: 7%;
+  overflow: hidden;
 }
 
 .whats-trending__container {
   display: flex;
-  align-items: center;
 }
 
 .whats-trending__content {
   width: 50%;
   padding: 0 12px;
+  align-self: center;
 }
 
 .whats-trending__description {
@@ -21,7 +22,6 @@
 }
 
 .whats-trending__image {
-  width: 33%;
   padding: 0 12px;
 }
 
@@ -42,6 +42,7 @@
 
 .card__image {
   border-radius: 7.5px;
+  width: 100%;
 }
 
 .card__overlay {
