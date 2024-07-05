@@ -47,7 +47,11 @@
 /* md */
 @media (max-width: 768px) {
   .page-banner {
-    padding: 90px 0;
+    padding-block: 100px 90px;
+  }
+
+  .page-banner__title {
+    font-size: 2.25rem;
   }
 }
 
