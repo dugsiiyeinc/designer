@@ -1,0 +1,58 @@
+.page-banner {
+  background-color: #333;
+  background-image: url(https://templatemo.com/templates/templatemo_572_designer/assets/images/page-banner-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 180px 0;
+  text-align: center;
+}
+
+.page-banner__content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-banner__title {
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-block: 15px 25px;
+}
+
+.page-banner__title .em {
+  font-style: normal;
+  color: #ff565b;
+}
+
+.page-banner__description {
+  color: #ffffff;
+  line-height: 28px;
+  max-width: 70ch;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+}
+
+/* 2xl */
+/* @media (max-width: 1400px) {} */
+
+/* xl */
+/* @media (max-width: 1280px) {} */
+
+/* lg */
+/* @media (max-width: 1024px) {} */
+
+/* md */
+@media (max-width: 768px) {
+  .page-banner {
+    padding: 90px 0;
+  }
+}
+
+/* sm */
+/* @media (max-width: 640px) {} */
+
+/* xs */
+/* @media (max-width: 475px) {} */
