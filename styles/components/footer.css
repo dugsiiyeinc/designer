@@ -119,6 +119,10 @@
     max-width: fit-content;
     margin-inline: auto;
   }
+
+  .footer__scroll-to-top {
+    padding-block: 0 20px;
+  }
 }
 
 /* md */
