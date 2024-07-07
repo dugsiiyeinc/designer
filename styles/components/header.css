@@ -27,13 +27,17 @@
 
 .header__menu-link:hover {
   color: #ff565b;
+  border-top: 2px solid #ff565b;
+  background-color: #ffffff;
+  border-radius: 7px;
 }
-
 .header__menu-link--active,
 .header__menu-link:active {
   color: #ff565b;
   background-color: #ffffff;
   border-radius: 7px;
+  border-top: 2px solid #ff565b;
+ 
 }
 
 /* Media Query Breakpoints */

@@ -38,7 +38,7 @@
      -ms-transition: transform 0.5s ease;
      -o-transition: transform 0.5s ease;
   }
-  img {
+  .int-pos img {
     border-radius: 8px;
    width: 100%;
    
@@ -109,10 +109,21 @@
   /* @media (max-width: 1024px) {} */
   
   /* md */
-  /* @media (max-width: 768px) {} */
+  @media (max-width: 768px) {
+
+  }
   
   /* sm */
-  /* @media (max-width: 640px) {} */
+  @media (max-width: 640px) {
+    .sub-img-01{
+        flex-wrap: wrap;
+        justify-content: center;
+       
+    }
+    .group1{
+        flex-wrap: wrap;
+    }
+  }
   
   /* xs */
   /* @media (max-width: 475px) {} */

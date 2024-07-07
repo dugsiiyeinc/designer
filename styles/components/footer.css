@@ -9,8 +9,9 @@
 }
 
 .footer__about-logo__img {
-  max-width: 273px;
+  max-width: 273px !important;
   margin-bottom: 45px;
+  background-color: #2a2a2a;
 }
 
 .footer__description {
