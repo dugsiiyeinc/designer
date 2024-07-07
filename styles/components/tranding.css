@@ -1,45 +1,118 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.container {
-    max-width: 1280px;
-    margin-inline: auto; 
-}
-.tranding-item{
+  }
+  .container {
+    max-width: 90%;
+    width: 100%;
+    margin-inline: auto;
+  }
+  .tranding-item {
+    width: 100%;
     margin-top: 6rem;
     display: grid;
-    grid-template-columns: repeat(3,1fr); 
-}
-.int-pos{
-    position: relative;
-}
-img{
-    border-radius: 8px;
-}
-.int-d{
-    position: absolute;
-    background-color:#ff565b ;
-    padding: 10px;
-    top: 0px;
-    left: 0;
-    border-top-left-radius: 8px;
-    border-bottom-right-radius:8px ;
-    color: white;
-    
-}
-.int-btn{
-    position: absolute;
-    bottom: 0px;
-    background: #ff565b;
-    width: 100%;
-    padding: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .sub-img-01 {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    color: white;
-}
-
+    gap: 2rem;
+  }
+  .group1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+  }
+  .int-pos {
+    position: relative;
+    overflow: hidden; 
+    border-radius: 8px;
+  
+  }
+  .int-pos:hover img {
+     transform: scale(1.1);
+     transition: transform 0.5s ease;
+     -webkit-transition: transform 0.5s ease;
+     -moz-transition: transform 0.5s ease;
+     -ms-transition: transform 0.5s ease;
+     -o-transition: transform 0.5s ease;
+  }
+  img {
+    border-radius: 8px;
+   width: 100%;
+   
+  }
+  .int-d {
+      position: absolute;
+      background-color: #ff565b;
+      padding: 10px;
+      top: 0px;
+      left: 0;
+      border-top-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      color: white;
+      z-index: 20; 
+      pointer-events: none; 
+    }
+  
+  .int-btn {
+      position: absolute;
+      bottom: 0;
+      background: #ff565b;
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      visibility: hidden;
+      justify-content: space-around;
+      align-items: center;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      color: white;
+      opacity: 0;
+      transform: translateY(100%);
+      transform: scaleX(0);
+      /* /Initialscaleto0/ */
+      transform-origin: bottom;
+      /* /Startscalingfromtheleftside/ */
+      transition: visibility 0s, 
+      opacity 0.3s, 
+      transform 0.3s;
+      
+      -webkit-transform: translateY(100%);
+      -moz-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+      -o-transform: translateY(100%);
+  }
+    
+    /* Make .int-btn visible on hover of its parent .int-pos */
+    .int-pos:hover .int-btn {
+      visibility: visible;
+      opacity: 1;
+      transform: scaleX(1); /* Scale to full width */
+    }
+    
+  /* xl */
+  @media (max-width: 1280px) {
+    .tranding-item {
+      display: flex;
+      flex-direction: column; 
+      align-items: center; /* Center children horizontally */
+      justify-content: center; /* Center children vertically */
+      grid-template-columns: 1fr; /* This property is not needed with Flexbox */
+      width: 100%;
+  
+    }
+  }
+  
+  /* lg */
+  /* @media (max-width: 1024px) {} */
+  
+  /* md */
+  /* @media (max-width: 768px) {} */
+  
+  /* sm */
+  /* @media (max-width: 640px) {} */
+  
+  /* xs */
+  /* @media (max-width: 475px) {} */
