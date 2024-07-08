@@ -1,0 +1,69 @@
+.header {
+  background-color: #2a2a2a;
+  padding: 10px 0;
+  position: fixed;
+  top: 5px;
+  left: 0;
+  z-index: 222;
+  width: 100%;
+}
+
+.header__desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.header__menu-link {
+  color: #ffffff;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.header__menu-link:hover {
+  color: #ff565b;
+}
+
+.header__menu-link--active,
+.header__menu-link:active {
+  color: #ff565b;
+  background-color: #ffffff;
+  border-radius: 7px;
+}
+
+/* Media Query Breakpoints */
+
+/* 2xl */
+/* @media (max-width: 1400px) {} */
+
+/* xl */
+/* @media (max-width: 1280px) {} */
+
+/* lg */
+@media (max-width: 1024px) {
+  .header__menu {
+    gap: 0.5rem;
+  }
+
+  .header__menu-link {
+    font-size: 14px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .header__desktop {
+    display: none;
+  }
+}
+
+/* sm */
+/* @media (max-width: 640px) {} */
+
+/* xs */
+/* @media (max-width: 475px) {} */
