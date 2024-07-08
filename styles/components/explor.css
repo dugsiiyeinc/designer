@@ -196,13 +196,12 @@
 /* medium */
 /* @media (max-width: 768px) {} */
 
-  /* sm */
-  /* @media (max-width: 640px) {} */
+/* sm */
+/* @media (max-width: 640px) {} */
 
-  /* xs */
-  @media (max-width: 475px) {
-    .Inter-Design img {
-      width: 80px;
-    }
+/* xs */
+@media (max-width: 475px) {
+  .Inter-Design img {
+    width: 80px;
   }
 }
