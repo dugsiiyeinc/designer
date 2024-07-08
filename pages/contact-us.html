@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../styles/components/header.css" />
     <link rel="stylesheet" href="../styles/components/mobile-nav.css" />
     <link rel="stylesheet" href="../styles/components/page-banner.css" />
-    <link rel="stylesheet" href="../styles/components/map.css" />
+    <link rel="stylesheet" href="../styles/components/contact-page.css" />
     <link rel="stylesheet" href="../styles/components/cta.css" />
     <link rel="stylesheet" href="../styles/components/footer.css" />
     <link rel="stylesheet" href="../styles/utilis.css" />
@@ -137,10 +137,48 @@
         </div>
       </section>
 
-      <!-- map section -->
+      <!-- contact page map section -->
        <section class="contact-page__map container section">
            <iframe class="contact-page__map__iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31835.403871868013!2d-80.115933!3d25.965162!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9add4b4ac788f%3A0xe77469d09480fcdb!2sSunny%20Isles%20Beach!5e1!3m2!1sen!2sth!4v1719834377561!5m2!1sen!2sth" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
        </section>
+
+       <!-- contact page form section -->
+       <section class="contact-page container">
+        <div class="contact-page__container">
+          <div class="contact-page__form">
+            <!-- form title -->
+            <h2 class="title">
+              Don't be hesitated <br>
+              <em class="em">send a message now</em>!
+            </h2>
+
+            <!-- form starts here -->
+             <form class="contact-page__form-group">
+              <fieldset class="contact-page__form__fieldset">
+                <input class="contact-page__form__input" name="name" type="text" id="name" placeholder="First Name*" required>
+              </fieldset>
+
+              <fieldset class="contact-page__form__fieldset">
+                <input class="contact-page__form__input" name="name" type="text" id="name" placeholder="Last Name*" required>
+              </fieldset>
+
+              <fieldset class="contact-page__form__fieldset">
+                <input class="contact-page__form__input" name="email" type="email" id="email" placeholder="Your Email*" required>
+              </fieldset>
+
+              <fieldset class="contact-page__form__fieldset">
+                <input class="contact-page__form__input" name="name" type="text" id="name" placeholder="Subject*" required>
+              </fieldset>
+
+              <fieldset class="contact-page__form__fieldset contact-us__form__fieldset--fullwidth">
+                <textarea class="contact-page__form__textarea" name="message" id="message">Message</textarea>
+              </fieldset>
+
+              <button class="btn btn--dark btn--fullwidth">Send Message</button>
+             </form>
+          </div>
+       </section>
+
     
 
       <!-- call to action section -->
