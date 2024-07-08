@@ -133,3 +133,115 @@
     width: 90%;
   }
 }
+/* tranding and explor file */
+/* xl */
+
+
+/* Large screen */
+@media (max-width: 1024px){
+  .container{
+     max-width:840px ;
+  
+     padding:0 10px ;
+  }
+  .bedrooms{
+      width: 100%;
+  }
+  .bed-section{
+      /* background-color: black; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      
+  }
+  .bed-section .bed-card{
+      width: 100%;
+      bottom:0;
+      left: 0;
+      /* padding: 15px; */
+
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 1rem;
+      background-color: white;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  }
+  /* .bed-card .card{
+      display: flex;
+      flex-direction: column;
+  } */
+  .bad-imgs{
+      width: 100%;
+      gap: 3rem;
+      flex-wrap: wrap;
+  }
+  .bad-imgs img{
+      width: 100%;
+  
+  }
+  .interiors{
+     flex-wrap: wrap;
+     border: none;
+  }
+  .Inter-Design{
+      border-top: 1px solid #eeeeee;
+      width: 100%;
+      padding: 60px 0px 30px 0px;
+    
+  }
+.right{
+  justify-content: right;
+}
+.Inter-Design img{
+  width: 60px;
+}
+.tranding-item{
+ justify-content: center;
+}
+.subs-img{
+  flex-wrap: wrap;
+ 
+}
+.subs-img{
+  flex-wrap: wrap;
+}
+.sub-img2{
+  flex-wrap: wrap;
+}
+.subs-img1{
+  flex-wrap: wrap;
+}
+
+
+}
+/* medium */
+@media (max-width: 768px) {
+.container{
+  max-width: 640px;
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container{
+      max-width: 475px;
+  }
+  }
+  /* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+    padding:0 10px ;
+
+  }
+  .Inter-Design img{
+      width: 80px;
+    }
+  
+  }
+}
