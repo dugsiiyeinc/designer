@@ -25,6 +25,54 @@
   font-weight: 700;
   color: #2a2a2a;
 }
+.testimonials{
+  background: url("https://www.noisutfilms.com/wp-content/uploads/2021/03/sigmund-rpFSjz6GAmU-unsplash-800x600.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+  width: 95%;
+  height:100vh;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  
+
+}
+
+.items{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 20px;
+ width: 342px;
+ height: 400px;
+ box-shadow: 10px 15px #f6c5c6;
+ position: relative;
+ border-radius: 10px;
+
+
+}
+.items #qout{
+  position: absolute;
+  top: -8px;
+  left: 10px;
+  font-size: 100px;
+  
+}
+.items svg{
+  color: #ff565b;
+}
+.items p{
+  line-height: 2rem;
+  color: rgb(131, 127, 127);
+}
 
 /* 2xl */
 /* @media (max-width: 1400px) {} */
