@@ -66,6 +66,11 @@
   margin-bottom: 32px;
 }
 
+.em {
+  font-style: normal;
+  color: #ff565b;
+}
+
 .title .em {
   padding-left: 100px;
   position: relative;

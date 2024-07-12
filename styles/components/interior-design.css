@@ -1,0 +1,146 @@
+.interior-design {
+  width: 100%;
+  max-width: 100%;
+  padding: 0 7%;
+  display: flex;
+}
+
+.interior-design__left {
+  width: 50%;
+  padding: 0 12px;
+}
+
+.interior-design__image-container {
+  margin-right: 50px;
+}
+
+.interior-design__img {
+  border-radius: 7.5px;
+  width: 100%;
+}
+
+.interior-design__content {
+  width: 50%;
+  margin-left: 50px;
+  padding: 0 12px;
+}
+
+.interior-design__content__description {
+  font-size: 16px;
+  line-height: 28px;
+  color: #7a7a7a;
+  margin-bottom: 1rem;
+}
+
+.accordion__title {
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+.accordion__item input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.accordion__item__label {
+  padding: 30px 0;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 1.0625rem;
+  color: #2a2a2a;
+}
+
+.accordion__item__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.35s;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.accordion__item input:checked ~ .accordion__item__content {
+  max-height: 10rem;
+}
+
+.accordion__item__label,
+.accordion__item__close {
+  display: flex;
+  cursor: pointer;
+}
+
+.accordion__item__label {
+  justify-content: space-between;
+}
+
+.accordion__item__label::after {
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transform: rotate(90deg);
+  transition: all 0.35s;
+}
+
+.accordion__item input:checked + .accordion__item__label::after {
+  transform: rotate(270deg);
+}
+
+.accordion__item__content p {
+  font-size: 15px;
+  line-height: 28px;
+  color: #7a7a7a;
+  margin-bottom: 1rem;
+}
+
+.accordion__item__close {
+  justify-content: flex-end;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  color: #2a2a2a;
+}
+
+/* 2xl */
+/* @media (max-width: 1400px) {} */
+
+/* xl */
+/* @media (max-width: 1280px) {} */
+
+/* lg */
+@media (max-width: 1024px) {
+  .interior-design {
+    flex-direction: column;
+  }
+
+  .interior-design__left {
+    width: 100%;
+  }
+
+  .interior-design__image-container {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .interior-design__img {
+    width: 100%;
+  }
+
+  .interior-design__content {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .interior-design {
+    padding: 0;
+  }
+}
+
+/* sm */
+/* @media (max-width: 640px) {} */
+
+/* xs */
+/* @media (max-width: 475px) {} */
