@@ -182,7 +182,11 @@
   }
 }
 /* medium */
-/* @media (max-width: 768px) {} */
+@media (max-width: 768px) {
+  .bedrooms {
+    padding: 0 12px;
+  }
+}
 
 /* sm */
 /* @media (max-width: 640px) {} */
