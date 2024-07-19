@@ -26,7 +26,7 @@
 - HTML: For Structuring The content.
 - CSS: For Styling and Layout.
 - JavaScript: for mopile menu.
-- Other tools: font awesome,Icons 
+- Other tools: font awesome,Icons. 
   
 
 
