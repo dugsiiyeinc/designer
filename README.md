@@ -13,7 +13,7 @@
   <p align="center">
     <a href="https://github.com/dugsiiyeinc/designer"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://designer-ej2z.vercel.app/index.html">View Demo</a>
+    <a href="https://designer-dugsiiye.vercel.app/">View Demo</a>
   </p>
 </div>
 
@@ -34,7 +34,7 @@
 <h1>About The Project</h1>
 
 <div align="center">
-  <a href="https://github.com/dugsiiyeinc/mediplus-P">
+  <a href="https://github.com/dugsiiyeinc/designer">
     <img src="https://templatemo.com/templates/templatemo_572_designer/assets/images/white-logo.png" alt="Logo" width="400" height="100">
   </a><br><br></div>
 <p>  Interior design is the art and science of understanding people's behavior to create functional spaces, that are aesthetically pleasing, within a building. Decoration is the furnishing or adorning of a space with decorative elements, sometimes complemented by advice and practical assistance. 
@@ -43,9 +43,9 @@
 
 1. Homepage : Search and explore some of our latest interior design work.
 2. About us: About Designer.
-3. Explore: Explore our work & minimalistic design.
-4. Trending: Check Trending work.
-5. Contact page: Contact Us.
+3. Trending: Check Trending work.
+  - Explore: Explore our work & minimalistic design.
+4. Contact page: Contact Us.
 
 
 </p><br>
